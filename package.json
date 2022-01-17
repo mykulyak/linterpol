@@ -1,0 +1,26 @@
+{
+  "name": "@mykulyak/smart-npm-run",
+  "version": "0.1.0",
+  "description": "Script that runs NPM commands (usually checks/tests) only for modified packages",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "smart-npm-run": "./index.js"
+  },
+  "scripts": {
+  },
+  "keywords": [
+    "git",
+    "monorepo",
+    "productivity"
+  ],
+  "author": {
+    "name": "Andriy Mykulyak",
+    "email": "mykulyak@gmail.com",
+    "url": "https://github.com/mykulyak"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "simple-git": "^2.48.0"
+  }
+}
