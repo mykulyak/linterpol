@@ -1,6 +1,6 @@
 {
   "name": "@mykulyak/linterpol",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Script that runs NPM commands (usually checks/tests) for modified packages",
   "main": "index.js",
   "type": "module",
