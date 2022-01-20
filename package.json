@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-    "smart-npm-run": "./index.js"
+    "linterpol": "./index.js"
   },
   "scripts": {
     "eslint": "eslint"
