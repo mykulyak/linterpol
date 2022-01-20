@@ -1,13 +1,14 @@
 {
-  "name": "@mykulyak/smart-npm-run",
+  "name": "@mykulyak/linterpol",
   "version": "0.1.0",
-  "description": "Script that runs NPM commands (usually checks/tests) only for modified packages",
+  "description": "Script that runs NPM commands (usually checks/tests) for modified packages",
   "main": "index.js",
   "type": "module",
   "bin": {
     "smart-npm-run": "./index.js"
   },
   "scripts": {
+    "eslint": "eslint"
   },
   "keywords": [
     "git",
@@ -19,8 +20,15 @@
     "email": "mykulyak@gmail.com",
     "url": "https://github.com/mykulyak"
   },
+  "homepage": "https://github.com/mykulyak/linterpol/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/mykulyak/linterpol/issues"
+  },
   "license": "MIT",
   "dependencies": {
     "simple-git": "^2.48.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0"
   }
 }
